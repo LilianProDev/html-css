@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+
+
+
+* {
+    height: 100px;
+}
+body {
+
+    background-image: linear-gradient(to right, #9600db60, #3ba8db52);
+    background-attachment: fixed;
+}
+
+.cabecalho1 {
+
+    text-align: center;
+    border: 3px dashed  #9600db60;
+    padding: 5px;
+    box-shadow: 1px 1px 1px black;  
+}
+
+main {
+    background-color: rgb(211, 119, 211);
+    border-radius: 10px 40px;
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+main#principal > p {
+   font-family: monospace;
+}
+#secao {
+    text-align: left;
+}
+#secao > p {
+    display: none;
+}
+#secao:hover > p {
+    display: block;
+    color: #13337d;
+    background-color: #3ba8db64;
+    border: 1px solid;
+}
+#secao:hover {
+    
+   color: #791ea3b1;
+
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p {
+ 
+    margin: 0px;
+    
+}
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px;
+    
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas!</h1>
+    <p>Tente abrir esse site em varios dispositivos ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+
+    </picture>
+<h1>Reproduzindo audio!</h1>
+<p>Vamos aprender a produzir audios em HTML5</p>
+
+<audio src="midia/Get Over It - Everet Almond.mp3" autoplay controls></audio> <!--MANEIRA SIMPLES DE COLOCAR AUDIO--> <!--FORMATOS MP3 WAV OGG-->
+
+<hr>
+
+<h1>Ester Santos Pereira, gosta de PÊRA!</h1>
+<hr>
+
+<audio preload="metadata" autoplay loop controls >
+    <source src="midia/Get Over It - Everet Almond.mp3" type="audio/mpeg">
+    <source src="midia/Get Over It - Everet Almond.ogg" type="audio/ogg">
+    <source src="midia/Get Over It - Everet Almond.wav" type="audio/wav"> <!--wav é um arquivo pesado-->
+
+    <p>Infelizmente seu navegador não consegue reproduzir áudio. <link rel="stylesheet" href="midia/Get Over It - Everet Almond.mp3">Clique aqui para baixar o qrquivo MP3</p>
+
+
+
+</audio> 
+
+
+</body>
+</html>
