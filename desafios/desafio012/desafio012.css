@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 
@@ -35,6 +36,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
+    font-size: 4em;
     
 }
 
@@ -76,6 +78,7 @@ section.imagem {
 section.imagem > p {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.226);
+    display: inline-block;
 }
 
 footer {
