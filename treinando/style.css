@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0%;
+    padding:  0%;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+
+section {
+    background-attachment: fixed;
+    width: 100vw;
+    height: 45vh;
+}
+
+section.amor {
+    padding: 20px;
+    
+    border: 2px solid rgba(0, 0, 0, 0.266);
+    background-image: url(imagem/IMG-amor-WA0019.jpg);
+    background-position: right center; 
+
+}
+
+section.eu {
+    background-image: url(imagem/IMG-eu.jpg);
+
+}
+
+section.mae {
+
+}
+
+
+
+footer {
+
+    text-align: center;
+}
