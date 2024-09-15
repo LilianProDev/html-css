@@ -8,38 +8,43 @@
 
 
 header {
+    padding-top: 50px;
+    background-color: rgba(30, 143, 255, 0.808);
     text-align: center;
     padding: 20px;
-    font-size: 3em;
+    font-size: 1.5em;   
 }
 
 section {
+
+    background-size: cover;
     background-attachment: fixed;
-    width: 100vw;
-    height: 45vh;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    padding-left: 30px;   
 }
 
 section.amor {
-    padding: 20px;
-    
-    border: 2px solid rgba(0, 0, 0, 0.266);
     background-image: url(imagem/IMG-amor-WA0019.jpg);
-    background-position: right center; 
-
+    background-position: top center;      
 }
 
 section.eu {
     background-image: url(imagem/IMG-eu.jpg);
-
+    background-position: left center;  
 }
 
 section.mae {
-
+    background-image: url(imagem/IMG-mae-WA0088.jpg);
+    background-position: right top;
 }
 
 
 
 footer {
-
+    background-color: black;
     text-align: center;
+    font-size: 3em;
+    color: white;
+    padding: 15px;
 }
