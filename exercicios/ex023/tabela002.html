@@ -16,6 +16,7 @@
         height: 150px;
         width: 500px;
         border-collapse: collapse;
+        position: relative;
         
     }
     caption {
@@ -35,6 +36,18 @@
     thead, tfoot {
         background-color: rgba(177, 116, 238, 0.975);
         color: white;
+    }
+
+    thead > tr > th {
+        position: sticky;
+        top: 0;
+        background-color: rgba(177, 116, 238, 0.975);
+     
+
+    }
+
+    tbody > tr:nth-child(odd) {
+        background-color: rgba(193, 109, 193, 0.173);
     }
 
     .numero {
@@ -183,6 +196,10 @@
             </tr>
         </tfoot>
     </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum distinctio obcaecati ullam excepturi alias itaque omnis animi error, porro dolorum amet placeat doloribus veniam voluptatem deleniti. Inventore, eius omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis magni hic perspiciatis tenetur itaque qui? Nesciunt ipsum accusamus ipsa maiores aspernatur corporis sunt earum alias animi, ea eos? Natus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi rem blanditiis eum expedita nesciunt maiores praesentium tenetur libero! Impedit vel, natus id iure ipsam a iste dicta amet culpa! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates unde dolorem impedit minima natus sunt error quasi. Laboriosam, iure nesciunt blanditiis alias odio amet saepe mollitia eum eos. Ullam, nostrum?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eum distinctio obcaecati ullam excepturi alias itaque omnis animi error, porro dolorum amet placeat doloribus veniam voluptatem deleniti. Inventore, eius omnis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi corporis magni hic perspiciatis tenetur itaque qui? Nesciunt ipsum accusamus ipsa maiores aspernatur corporis sunt earum alias animi, ea eos? Natus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi rem blanditiis eum expedita nesciunt maiores praesentium tenetur libero! Impedit vel, natus id iure ipsam a iste dicta amet culpa! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates unde dolorem impedit minima natus sunt error quasi. Laboriosam, iure nesciunt blanditiis alias odio amet saepe mollitia eum eos. Ullam, nostrum?</p>
 
     
 </body>
