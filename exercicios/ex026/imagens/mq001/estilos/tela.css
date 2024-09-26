@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* Estilos para tela */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgreen;
+}
+
+header > h1 {
+
+    background-image: linear-gradient(to left,rgba(0, 128, 0, 0.619), rgba(172, 255, 47, 0.373));
+    text-align: center;
+
+}
+
+menu ul {
+    
+    list-style-type: none;
+    background-color: rgba(0, 128, 0, 0.103);
+    
+}
+
+menu li {
+    background-color: rgba(85, 107, 47, 0.242);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+menu li:hover {
+    background-image: linear-gradient(to left,rgba(0, 128, 0, 0.619), rgba(172, 255, 47, 0.723));
+    
+}
+
+article {
+    width: 600px;
+    display: block; 
+    margin: auto;
+    padding: 20px;
+
+}
